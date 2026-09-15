@@ -1,0 +1,15 @@
+node_modules/
+.next/
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+*.pyc
+*.egg-info/
+data/runtime/
+*.tsbuildinfo
+*.db
+/data/toronto/*.net.xml
+/apps/web/public/maplibre-gl-worker.mjs
+.agents/
+*_PLAN.md
