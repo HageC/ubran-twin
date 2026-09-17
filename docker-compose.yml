@@ -1,0 +1,60 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-urbantwin}
+      POSTGRES_USER: ${POSTGRES_USER:-urbantwin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-urbantwin}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER}"]
+      interval: 3s
+      retries: 20
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 3s
+      retries: 20
+  api:
+    build: ./apps/api
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://urbantwin:urbantwin@db:5432/urbantwin}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+      REPLAY_DIR: /app/data/runtime
+      DATA_DIR: /app/data/toronto
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8000:8000"
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+  worker:
+    build: ./apps/api
+    command: ["python", "-m", "app.worker"]
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql+psycopg://urbantwin:urbantwin@db:5432/urbantwin}
+      REDIS_URL: ${REDIS_URL:-redis://redis:6379/0}
+      REPLAY_DIR: /app/data/runtime
+      DATA_DIR: /app/data/toronto
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+  web:
+    build:
+      context: ./apps/web
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    environment:
+      NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+volumes:
+  postgres_data:
+
