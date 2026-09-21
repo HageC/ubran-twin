@@ -1,0 +1,106 @@
+{
+  "source": "https://download.bbbike.org/osm/bbbike/Montreal/Montreal.osm.pbf",
+  "source_sha256": "be5205f09a102acad2cb4a83cb7c6073bf333c56158efc37c25b5c3eaa9c6201",
+  "description": "Named OSM place nodes near the downtown core; points do not define area boundaries.",
+  "places": [
+    {
+      "id": "220864504",
+      "name": "Le Plateau-Mont-Royal",
+      "kind": "suburb",
+      "center": [
+        -73.5821731,
+        45.5218361
+      ]
+    },
+    {
+      "id": "10757822618",
+      "name": "Le Sud-Ouest",
+      "kind": "suburb",
+      "center": [
+        -73.5649867,
+        45.484268
+      ]
+    },
+    {
+      "id": "4342882993",
+      "name": "Mile-End",
+      "kind": "neighbourhood",
+      "center": [
+        -73.600208,
+        45.5250827
+      ]
+    },
+    {
+      "id": "220866212",
+      "name": "Outremont",
+      "kind": "suburb",
+      "center": [
+        -73.6068856,
+        45.5186167
+      ]
+    },
+    {
+      "id": "4342869233",
+      "name": "Pointe-Saint-Charles",
+      "kind": "neighbourhood",
+      "center": [
+        -73.563774,
+        45.4796862
+      ]
+    },
+    {
+      "id": "936063542",
+      "name": "Quartier Chinois",
+      "kind": "neighbourhood",
+      "center": [
+        -73.5601888,
+        45.5079409
+      ]
+    },
+    {
+      "id": "936063543",
+      "name": "Quartier des Spectacles",
+      "kind": "neighbourhood",
+      "center": [
+        -73.5653119,
+        45.508005
+      ]
+    },
+    {
+      "id": "4342869232",
+      "name": "Saint-Henri",
+      "kind": "neighbourhood",
+      "center": [
+        -73.5852389,
+        45.4783181
+      ]
+    },
+    {
+      "id": "965631912",
+      "name": "Vieux-Montréal",
+      "kind": "neighbourhood",
+      "center": [
+        -73.5574484,
+        45.5033677
+      ]
+    },
+    {
+      "id": "1069247679",
+      "name": "Village gai",
+      "kind": "neighbourhood",
+      "center": [
+        -73.555055,
+        45.5194111
+      ]
+    },
+    {
+      "id": "7834859705",
+      "name": "Ville-Marie",
+      "kind": "suburb",
+      "center": [
+        -73.5681257,
+        45.5010803
+      ]
+    }
+  ]
+}
