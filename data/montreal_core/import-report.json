@@ -1,0 +1,18 @@
+{
+  "name": "Montr\u00e9al \u00b7 Downtown Core",
+  "bbox": [
+    -73.593,
+    45.49,
+    -73.562,
+    45.515
+  ],
+  "version": "2026-10-25-984366100475",
+  "source": "https://download.bbbike.org/osm/bbbike/Montreal/Montreal.osm.pbf",
+  "source_sha256": "be5205f09a102acad2cb4a83cb7c6073bf333c56158efc37c25b5c3eaa9c6201",
+  "attribution": "\u00a9 OpenStreetMap contributors \u00b7 ODbL",
+  "mapped_roads": 2973,
+  "changeable_roads": 995,
+  "passenger_edges": 2554,
+  "components": 2,
+  "largest_component_edges": 2527
+}
