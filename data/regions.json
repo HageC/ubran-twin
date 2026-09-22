@@ -1,0 +1,68 @@
+{
+  "toronto-demo": {
+    "name": "Toronto · Financial District",
+    "bbox": [
+      -79.389,
+      43.648,
+      -79.385,
+      43.651
+    ],
+    "folder": "toronto",
+    "version": "2026-10-23-demo"
+  },
+  "montreal-demo": {
+    "name": "Montréal · Downtown",
+    "bbox": [
+      -73.578,
+      45.499,
+      -73.573,
+      45.503
+    ],
+    "folder": "montreal",
+    "version": "2026-10-23-demo"
+  },
+  "vancouver-demo": {
+    "name": "Vancouver · Downtown",
+    "bbox": [
+      -123.121,
+      49.282,
+      -123.116,
+      49.286
+    ],
+    "folder": "vancouver",
+    "version": "2026-10-23-demo"
+  },
+  "toronto-core": {
+    "name": "Toronto · Downtown Core",
+    "bbox": [
+      -79.396,
+      43.645,
+      -79.378,
+      43.657
+    ],
+    "folder": "toronto_core",
+    "version": "2026-10-24-b31abddbf256"
+  },
+  "montreal-core": {
+    "name": "Montréal · Downtown Core",
+    "bbox": [
+      -73.593,
+      45.49,
+      -73.562,
+      45.515
+    ],
+    "folder": "montreal_core",
+    "version": "2026-10-25-984366100475"
+  },
+  "vancouver-core": {
+    "name": "Vancouver · Downtown Core",
+    "bbox": [
+      -123.135,
+      49.275,
+      -123.105,
+      49.295
+    ],
+    "folder": "vancouver_core",
+    "version": "2026-10-25-5ed5207feafe"
+  }
+}
