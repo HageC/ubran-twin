@@ -1,0 +1,17 @@
+{
+  "name": "Toronto \u00b7 Downtown Core",
+  "bbox": [
+    -79.396,
+    43.645,
+    -79.378,
+    43.657
+  ],
+  "version": "2026-10-24-b31abddbf256",
+  "source": "https://overpass-api.de/api/interpreter",
+  "attribution": "© OpenStreetMap contributors · ODbL",
+  "mapped_roads": 652,
+  "changeable_roads": 294,
+  "passenger_edges": 863,
+  "components": 1,
+  "largest_component_edges": 863
+}
