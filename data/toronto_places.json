@@ -1,0 +1,331 @@
+{
+  "source": "https://download.bbbike.org/osm/bbbike/Toronto/Toronto.osm.pbf",
+  "source_sha256": "9b47925f58a0a3608e116fab945731a7d06974c2e4aa3c8479325cf80e675abe",
+  "description": "Named OSM place nodes near the downtown core; points do not define area boundaries.",
+  "places": [
+    {
+      "id": "4967086487",
+      "name": "Alexandra Park",
+      "kind": "neighbourhood",
+      "center": [
+        -79.40162,
+        43.6503798
+      ]
+    },
+    {
+      "id": "5262810858",
+      "name": "Bathurst Quay",
+      "kind": "neighbourhood",
+      "center": [
+        -79.398329,
+        43.6357905
+      ]
+    },
+    {
+      "id": "12516407818",
+      "name": "Bay-Cloverhill",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3872257,
+        43.6643896
+      ]
+    },
+    {
+      "id": "5473659193",
+      "name": "Bloor Street Culture Corridor",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3941295,
+        43.6687015
+      ]
+    },
+    {
+      "id": "281361505",
+      "name": "Cabbagetown",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3669861,
+        43.6644734
+      ]
+    },
+    {
+      "id": "239164261",
+      "name": "Chinatown",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3980316,
+        43.6529237
+      ]
+    },
+    {
+      "id": "622685519",
+      "name": "Church-Wellesley Village",
+      "kind": "neighbourhood",
+      "center": [
+        -79.380936,
+        43.6656646
+      ]
+    },
+    {
+      "id": "1306348568",
+      "name": "CityPlace",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3963865,
+        43.6392482
+      ]
+    },
+    {
+      "id": "364870023",
+      "name": "Discovery District",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3894803,
+        43.6575555
+      ]
+    },
+    {
+      "id": "5479086691",
+      "name": "Downtown Yonge",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3809161,
+        43.6563221
+      ]
+    },
+    {
+      "id": "10772419926",
+      "name": "East Bayfront Precinct",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3651396,
+        43.6452406
+      ]
+    },
+    {
+      "id": "5378482977",
+      "name": "Entertainment District",
+      "kind": "neighbourhood",
+      "center": [
+        -79.389723,
+        43.6465862
+      ]
+    },
+    {
+      "id": "343036901",
+      "name": "Fashion District",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3949942,
+        43.6454561
+      ]
+    },
+    {
+      "id": "3060121401",
+      "name": "Financial District",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3802817,
+        43.6486382
+      ]
+    },
+    {
+      "id": "4958758120",
+      "name": "Fort York",
+      "kind": "neighbourhood",
+      "center": [
+        -79.402538,
+        43.6374362
+      ]
+    },
+    {
+      "id": "5423119853",
+      "name": "Garden District",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3771141,
+        43.6564995
+      ]
+    },
+    {
+      "id": "5365037129",
+      "name": "Harbord Village",
+      "kind": "neighbourhood",
+      "center": [
+        -79.4097446,
+        43.6615225
+      ]
+    },
+    {
+      "id": "5321113029",
+      "name": "Harbourfront",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3801495,
+        43.6400801
+      ]
+    },
+    {
+      "id": "254215326",
+      "name": "Kensington Market",
+      "kind": "neighbourhood",
+      "center": [
+        -79.4022604,
+        43.6552136
+      ]
+    },
+    {
+      "id": "5387292010",
+      "name": "King East",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3743821,
+        43.6499078
+      ]
+    },
+    {
+      "id": "5384400710",
+      "name": "King West",
+      "kind": "neighbourhood",
+      "center": [
+        -79.4026719,
+        43.6439095
+      ]
+    },
+    {
+      "id": "5430214594",
+      "name": "Little Tokyo",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3837023,
+        43.6557242
+      ]
+    },
+    {
+      "id": "4960791254",
+      "name": "Moss Park",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3697278,
+        43.6546438
+      ]
+    },
+    {
+      "id": "7527143919",
+      "name": "Niagara",
+      "kind": "neighbourhood",
+      "center": [
+        -79.4086982,
+        43.6440753
+      ]
+    },
+    {
+      "id": "5368999301",
+      "name": "Queen West",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3963638,
+        43.6487476
+      ]
+    },
+    {
+      "id": "3054664917",
+      "name": "South Core",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3774455,
+        43.6421064
+      ]
+    },
+    {
+      "id": "6258997036",
+      "name": "Spadina–Fort York",
+      "kind": "quarter",
+      "center": [
+        -79.3962675,
+        43.6416049
+      ]
+    },
+    {
+      "id": "304901116",
+      "name": "St. James Town",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3727041,
+        43.6694032
+      ]
+    },
+    {
+      "id": "3060121400",
+      "name": "St. Lawrence",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3714551,
+        43.6494107
+      ]
+    },
+    {
+      "id": "364869962",
+      "name": "The Annex",
+      "kind": "neighbourhood",
+      "center": [
+        -79.4052888,
+        43.6703045
+      ]
+    },
+    {
+      "id": "6258997038",
+      "name": "Toronto Centre",
+      "kind": "quarter",
+      "center": [
+        -79.3685708,
+        43.6604085
+      ]
+    },
+    {
+      "id": "13715421905",
+      "name": "University",
+      "kind": "neighbourhood",
+      "center": [
+        -79.4020697,
+        43.6629864
+      ]
+    },
+    {
+      "id": "6258997040",
+      "name": "University–Rosedale",
+      "kind": "quarter",
+      "center": [
+        -79.3918111,
+        43.663336
+      ]
+    },
+    {
+      "id": "12516407819",
+      "name": "Upper Jarvis",
+      "kind": "neighbourhood",
+      "center": [
+        -79.379477,
+        43.6688475
+      ]
+    },
+    {
+      "id": "12516407820",
+      "name": "Winchester Park",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3714474,
+        43.6653661
+      ]
+    },
+    {
+      "id": "555446562",
+      "name": "Yorkville",
+      "kind": "neighbourhood",
+      "center": [
+        -79.3901677,
+        43.6713861
+      ]
+    }
+  ]
+}
