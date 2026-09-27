@@ -1,0 +1,18 @@
+{
+  "name": "Vancouver \u00b7 Downtown Core",
+  "bbox": [
+    -123.135,
+    49.275,
+    -123.105,
+    49.295
+  ],
+  "version": "2026-10-25-5ed5207feafe",
+  "source": "https://download.bbbike.org/osm/bbbike/Vancouver/Vancouver.osm.pbf",
+  "source_sha256": "a66471f41ebb5f9f0e3ef832663af55748dc22c177a553abf7f4d670d385976a",
+  "attribution": "\u00a9 OpenStreetMap contributors \u00b7 ODbL",
+  "mapped_roads": 1492,
+  "changeable_roads": 631,
+  "passenger_edges": 1812,
+  "components": 1,
+  "largest_component_edges": 1812
+}
