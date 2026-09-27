@@ -1,0 +1,178 @@
+{
+  "source": "https://download.bbbike.org/osm/bbbike/Vancouver/Vancouver.osm.pbf",
+  "source_sha256": "a66471f41ebb5f9f0e3ef832663af55748dc22c177a553abf7f4d670d385976a",
+  "description": "Named OSM place nodes near the downtown core; points do not define area boundaries.",
+  "places": [
+    {
+      "id": "704270672",
+      "name": "Chinatown",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1010541,
+        49.2803671
+      ]
+    },
+    {
+      "id": "704270677",
+      "name": "Coal Harbour",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1249202,
+        49.2894409
+      ]
+    },
+    {
+      "id": "3836764157",
+      "name": "Davie Village",
+      "kind": "neighbourhood",
+      "center": [
+        -123.133288,
+        49.2818026
+      ]
+    },
+    {
+      "id": "12530202081",
+      "name": "Denman Village",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1386366,
+        49.2894222
+      ]
+    },
+    {
+      "id": "3736867761",
+      "name": "Downtown",
+      "kind": "suburb",
+      "center": [
+        -123.1181365,
+        49.2824931
+      ]
+    },
+    {
+      "id": "1098517123",
+      "name": "Downtown Eastside",
+      "kind": "neighbourhood",
+      "center": [
+        -123.0994578,
+        49.2823992
+      ]
+    },
+    {
+      "id": "704270708",
+      "name": "Fairview",
+      "kind": "suburb",
+      "center": [
+        -123.1268352,
+        49.2641128
+      ]
+    },
+    {
+      "id": "13927161281",
+      "name": "Financial District",
+      "kind": "neighbourhood",
+      "center": [
+        -123.117839,
+        49.28659
+      ]
+    },
+    {
+      "id": "704270667",
+      "name": "Gastown",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1062358,
+        49.2836567
+      ]
+    },
+    {
+      "id": "13927314788",
+      "name": "Granville Entertainment District",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1237715,
+        49.2787743
+      ]
+    },
+    {
+      "id": "3944772462",
+      "name": "Granville Island",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1342858,
+        49.270713
+      ]
+    },
+    {
+      "id": "6916621801",
+      "name": "Japantown",
+      "kind": "neighbourhood",
+      "center": [
+        -123.0952274,
+        49.2831869
+      ]
+    },
+    {
+      "id": "12530202082",
+      "name": "Lower Davie",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1402495,
+        49.2862811
+      ]
+    },
+    {
+      "id": "12530202083",
+      "name": "Lower Robson",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1337875,
+        49.2904787
+      ]
+    },
+    {
+      "id": "1100940466",
+      "name": "Mount Pleasant",
+      "kind": "suburb",
+      "center": [
+        -123.1008859,
+        49.2644165
+      ]
+    },
+    {
+      "id": "6489787264",
+      "name": "Olympic Village",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1063769,
+        49.2709387
+      ]
+    },
+    {
+      "id": "5201558834",
+      "name": "South Granville",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1386887,
+        49.2634716
+      ]
+    },
+    {
+      "id": "3716169403",
+      "name": "West End",
+      "kind": "suburb",
+      "center": [
+        -123.1331293,
+        49.2858135
+      ]
+    },
+    {
+      "id": "704270660",
+      "name": "Yaletown",
+      "kind": "neighbourhood",
+      "center": [
+        -123.1209558,
+        49.2763217
+      ]
+    }
+  ]
+}
